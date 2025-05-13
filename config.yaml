@@ -1,7 +1,7 @@
-name: "SAPN Meterdata"
-description: "SA Power Networks api"
-version: "1.0.0"
-slug: "sapn_meterdata"
+name: "Hello world"
+description: "My first real add-on!"
+version: "1.0.1"
+slug: "hello_world"
 init: false
 arch:
   - aarch64
@@ -9,3 +9,6 @@ arch:
   - armhf
   - armv7
   - i386
+startup: services
+ports:
+  8000/tcp: 8000
